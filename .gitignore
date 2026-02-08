@@ -1,0 +1,30 @@
+# OCR Butterfly
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+.env
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE / Tools
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+
+# Project specific
+uploads/
+*.log
+*.app/
+AppIcon.icns

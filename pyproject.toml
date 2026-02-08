@@ -1,0 +1,17 @@
+[project]
+name = "ocr-butterfly"
+version = "1.0.0"
+description = "Mac-native OCR for Apple Silicon — images, PDFs, and video frames"
+requires-python = ">=3.11"
+license = "AGPL-3.0-or-later"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]
+
+[tool.ruff.format]
+quote-style = "single"
